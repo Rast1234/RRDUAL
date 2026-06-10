@@ -49,5 +49,9 @@ Buttons are up to you and can be changed in-game. Just be careful not to touch a
 |Start|Esc - for menu navigation|
 |Select|Esc - for menu navigation|
 
+## References
+
+* https://www.youtube.com/watch?v=T64zWlUTYwo
+* https://www.youtube.com/watch?v=HtPwbhC8wQs
 
 
