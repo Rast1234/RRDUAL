@@ -1,0 +1,31 @@
+
+
+####### JOYSTICK MAPPINGS
+
+JOYSTICK                    AXIS=X                      FUNCTION=TURN                                           
+JOYSTICK                    AXIS=Y                      FUNCTION=PITCH                                          
+JOYSTICK                    AXIS=Z                      FUNCTION=ANALOG_THROTTLE                                
+JOYSTICK                    AXIS=RX                     FUNCTION=ROLL_RIGHT         AXIS_RANGE=NEGATIVE         
+JOYSTICK                    AXIS=RY                     FUNCTION=ROLL_LEFT          AXIS_RANGE=POSITIVE         
+JOYSTICK                    BUTTON=5                    FUNCTION=BRAKE                                          
+JOYSTICK                    BUTTON=8                    FUNCTION=BOOST                                          
+JOYSTICK                    BUTTON=6                    FUNCTION=SLIDE                                          
+JOYSTICK                    BUTTON=7                    FUNCTION=SPECIAL                                        
+JOYSTICK                    BUTTON=4                    FUNCTION=REPAIR                                         
+
+JOYSTICK                    ENABLED=TRUE                
+
+
+####### MOUSE MAPPINGS
+
+MOUSE                       ENABLED=FALSE               
+
+
+####### KEYBOARD MAPPINGS
+
+KEYBOARD                    KEY=UP_ARROW                FUNCTION=CAMERA_CYCLE                                         
+KEYBOARD                    KEY=DOWN_ARROW              FUNCTION=LOOK_BACK                                       
+
+KEYBOARD                    ENABLED=TRUE                
+
+end.
