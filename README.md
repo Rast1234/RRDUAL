@@ -9,8 +9,8 @@ Differential throttle controls for Star Wars Episode 1 Racer. Now this is podrac
 ## Instructions
 
 1. Get [Xidi](https://github.com/samuelgr/Xidi) - copy all DLLs from Win32 folder to game root
-2. Get [latest configs](https://github.com/Rast1234/RRDUAL/releases/latest), unpack into game root. Careful, this will overwrite your config!
-3. Connect your controller, enjoy! Make sure to read `Xidi.ini` for details and tweaks
+2. Get [latest configs](https://github.com/Rast1234/RRDUAL/releases/latest), unpack into game root. Careful, this will overwrite your current controls!
+3. Connect your controller, enjoy! Make sure to read `Xidi.ini` for tweaking
 4. If you are using DS4Windows: make sure that `Settings - Hide DS4 Controller` is **DISABLED**
 
 ## Details
@@ -25,20 +25,29 @@ So i managed to do some tricks with Xidi config and game settings. Differential 
 
 It's really uncomfortable, but fun to try!
 
-Controls
+## Controls
+
+Buttons are up to you and can be changed in-game. Just be careful not to touch anything axis-related! Take into account that while holding dual sticks, only useable buttons are L1/R1 and less so L3/R3
 
 |Gamepad|Function|
 |-|-|
+|L up + R up|Forward|
+|L neutral + R up|Steer left, and vice versa|
+|L down + R up|Sharp steer left, and vice versa|
+|L down + R down|Nothing|
+|L left + R left|Rotate left, and vice versa|
+|L2|Pitch - nose down + boost charge|
+|R2|Pitch - nose up + glide|
 |L1|Brake|
 |R1|Slide|
 |L3|Taunt|
 |R3|Boost|
-|Triangle|repair (it's immersively inconvenient, on purpose!)|
-|DPAD|keyboard arrows - for menu navigation|
-|DPAD UP|change camera - in game|
-|DPAD DOWN|look back - in game|
+|Triangle|Repair (it's immersively inconvenient, on purpose!)|
+|DPAD|Keyboard arrows - for menu navigation|
+|DPAD UP|Change camera - in game|
+|DPAD DOWN|Look back - in game|
 |Start|Esc - for menu navigation|
 |Select|Esc - for menu navigation|
 
 
-Buttons are up to you and can be changed in-game. Just be careful not to touch anything axis-related! Take into account that while holding dual sticks, only useable buttons are L1/R1 and less so L3/R3
+
