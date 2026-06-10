@@ -1,6 +1,8 @@
 # RRDUAL
 Differential throttle controls for Star Wars Episode 1 Racer. Now this is podracing!
 
+> I completed the game with this exact setup. Don't forget to lock FPS to 30, see PCGW for that.
+
 ## Demo video
 
 [![Youtube Video](https://github.com/user-attachments/assets/21737201-1f7d-4242-9c6b-2a93dd608b1a)](https://www.youtube.com/watch?v=3ljSkP6mX2Y)
