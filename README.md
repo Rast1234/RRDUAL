@@ -36,8 +36,8 @@ Buttons are up to you and can be changed in-game. Just be careful not to touch a
 |L down + R up|Sharp steer left, and vice versa|
 |L down + R down|Nothing|
 |L left + R left|Rotate left, and vice versa|
-|L2|Pitch - nose down + boost charge|
-|R2|Pitch - nose up + glide|
+|L2|Pitch nose down + boost charge|
+|R2|Pitch nose up + glide, also reverse if standing still|
 |L1|Brake|
 |R1|Slide|
 |L3|Taunt|
