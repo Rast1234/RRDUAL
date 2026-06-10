@@ -9,6 +9,36 @@ Differential throttle controls for Star Wars Episode 1 Racer. Now this is podrac
 ## Instructions
 
 1. Get [Xidi](https://github.com/samuelgr/Xidi) - copy all DLLs from Win32 folder to game root
-2. Get [latest configs](https://github.com/Rast1234/RRDUAL/releases/latest), unpack into game root
+2. Get [latest configs](https://github.com/Rast1234/RRDUAL/releases/latest), unpack into game root. Careful, this will overwrite your config!
 3. Connect your controller, enjoy! Make sure to read `Xidi.ini` for details and tweaks
 4. If you are using DS4Windows: make sure that `Settings - Hide DS4 Controller` is **DISABLED**
+
+## Details
+
+Episode 1 Racer for Nintendo 64 had a hidden feature. By typing cheat code RRDUAL, you could control your pod with two N64 controllers. Each controller has one analog stick. Each stick worked a separate throttle for left and right booster, just like in the movie. Steering works by releasing throttle on one side.
+
+It is weird but interesting concept. Unfortunately, locked on a single platform, under cheat code, and requiring two controllers. Also unavailable for PC! Apparently, some traces were found during reverse engineering but there was no way to use this feature.
+
+Enter Xidi - DirectInput interface for XInput controllers. It's a wrapper library that can convert force feedback from the game to rumble for typical modern gamepad. But it can do things to axis inputs too.
+
+So i managed to do some tricks with Xidi config and game settings. Differential throttle and steering works. Rotating with two sticks works too, as in N64 version.
+
+It's really uncomfortable, but fun to try!
+
+Controls
+
+|Gamepad|Function|
+|-|-|
+|L1|Brake|
+|R1|Slide|
+|L3|Taunt|
+|R3|Boost|
+|Triangle|repair (it's immersively inconvenient, on purpose!)|
+|DPAD|keyboard arrows - for menu navigation|
+|DPAD UP|change camera - in game|
+|DPAD DOWN|look back - in game|
+|Start|Esc - for menu navigation|
+|Select|Esc - for menu navigation|
+
+
+Buttons are up to you and can be changed in-game. Just be careful not to touch anything axis-related! Take into account that while holding dual sticks, only useable buttons are L1/R1 and less so L3/R3
